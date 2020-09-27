@@ -1,0 +1,3 @@
+include ':YanCountEditText'
+include ':app'
+rootProject.name = "YanCustomView"
