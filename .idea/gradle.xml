@@ -12,6 +12,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/YanCountEditText" />
+            <option value="$PROJECT_DIR$/YanDeleteEditText" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
 
     <com.yan.yancountedittext.YanCountEditText
         android:id="@+id/et_reason"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dip"
         android:layout_marginLeft="15dip"
         android:layout_marginRight="15dip"
@@ -23,4 +25,48 @@
         app:etTextSize="16dp"
         app:etType="percentage" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="注册登录"
+        android:textSize="60sp"/>
+
+    <com.yan.yandeleteedittext.YanDeleteEditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:ic_left_click="@drawable/ic_left_click"
+        app:ic_left_unclick="@drawable/ic_left_unclick"
+        app:left_x="0"
+        app:left_y="0"
+        app:left_width="60"
+        app:left_height="60"
+
+        app:ic_delete="@drawable/delete"
+        app:delete_x="0"
+        app:delete_y="0"
+        app:delete_width="80"
+        app:delete_height="80"
+
+        app:lineColor_click="@color/colorfocus"
+        app:lineColor_unclick="@color/colorDeafult"
+        app:linePosition="1"
+
+        app:cursor="@drawable/cursortest"
+        android:textSize="20sp"
+        android:textColor="@color/colorfocus"
+
+        />
+
+    <com.yan.yandeleteedittext.YanDeleteEditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        app:ic_left_click="@drawable/password_click"
+        app:ic_left_unclick="@drawable/password_unclick"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+
+        />
+
+</LinearLayout>
