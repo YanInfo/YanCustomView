@@ -1,1 +1,20 @@
 
+参数
+
+    参数        | 说明    
+    -|-
+    etText        | xml参数，设置默认文字      | 
+    etTextSize    | xml参数，输入文字大小      | 
+    etTextColor   | xml参数，输入文字颜色      | 
+    etPromptTextSize        | xml参数，提示统计文字大小     | 
+    etPromptTextColor    |xml参数，提示统计文字颜色，如果没有设置左边的颜色，则统计文字颜色一样      | 
+    etPromptTextLeftColor |xml参数，提示统计文字/左边的颜色   |
+    etHintColor   | xml参数，提示文字颜色      | 
+    etHint        | xml参数，设置提示文字      | 
+    etMinHeight   | xml参数，设置最小高度      | 
+    etMaxLength   | xml参数，设置最大长度（总字数）      | 
+    etType        | xml参数，设置提示统计显示类型(单数singular；百分percentage)      | 
+    etLineColor   | xml参数，设置横线颜色      | 
+    etPromptPosition | xml参数，设置提示统计显示类型位置（promptUp上方；下方promptDn）|
+    getText()     | java方法，获取输入的文字    | 
+    setText       | java方法，设置默认文字      |
